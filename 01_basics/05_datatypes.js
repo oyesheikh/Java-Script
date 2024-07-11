@@ -11,11 +11,11 @@
 
 // JavaScript is a dynamic language and not static, which means that variables can hold values of different types during runtime.20-Jun-2023
 
-const score = 100
+// const score = 100
 
-const isLoggedIn = false
+// const isLoggedIn = false
 
-const bigNumber = 1284735
+// const bigNumber = 1284735
 
 // Reference data types / non-primitive
 
@@ -23,18 +23,43 @@ const bigNumber = 1284735
 // 2nd = objects 
 // 3rd = functions 
 
-const heroes = [ "mighty raju" , "thor" , "supra man" ]
+// const heroes = [ "mighty raju" , "thor" , "supra man" ]
 
-let myObj = {
-       name: "Faheem",
-       age: 18,
+// let myObj = {
+//        name: "Faheem",
+//        age: 18,
 
 
 
+// }
+
+// // const myFunction = function(){
+// //     console.log("Hello world")
+// // }
+
+// console.log(typeof bigNumber)
+
+
+// *******************************************
+
+// Memory
+
+// Stack
+// Primitive
+
+// Heap
+// Non-primitive]
+
+let userOne = {
+
+    email: "user@gmail.com"
+    
 }
 
-const myFunction = function(){
-    console.log("Hello world")
-}
+let userTwo = userOne
 
-console.log(typeof bigNumber)
+userTwo.email = "my@gmail.com"
+
+console.log(userOne.email)
+
+console.log(userTwo.email)
